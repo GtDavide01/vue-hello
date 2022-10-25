@@ -11,7 +11,21 @@
 </head>
 <body>
     
+    <main>
+        <div id="app">
+            <h1>{{ message }}</h1>
+            <h2>Questa è l'immagine stampata tramite data &downarrow;</h2>
+            <img v-bind:src="image" alt="">
+            <br>
 
-    <script src="js/script.jss"></script>
+            <label v-bind:class="fontclass" for="number">Inserisci un numero qualsiasi </label>
+            <br>
+            <input type="number" id="number" v-model="userNumber">
+            <button  @click="isAddOrEven">Sono pari o dispari ? </button>
+            <p v-bind:class="color">{{result}}</p>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

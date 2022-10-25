@@ -1,0 +1,13 @@
+.pari{
+    background-color: yellow;
+    color: black ;
+    font-size: 3rem;
+}
+.dispari{
+    background-color: aqua;
+    font-size: 3rem;
+}
+
+.fontclass{
+    font-size: 3rem;
+}
